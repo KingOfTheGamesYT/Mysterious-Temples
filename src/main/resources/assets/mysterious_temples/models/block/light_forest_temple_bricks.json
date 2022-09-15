@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mysterious_temples:blocks/light_forest_temple_bricks"
+  }
+}

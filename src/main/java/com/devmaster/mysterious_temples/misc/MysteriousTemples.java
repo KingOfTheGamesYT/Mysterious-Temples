@@ -1,5 +1,6 @@
 package com.devmaster.mysterious_temples.misc;
 
+import com.devmaster.mysterious_temples.util.RegistryHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -21,6 +22,8 @@ public class MysteriousTemples {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
+
+        RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(this);
 
