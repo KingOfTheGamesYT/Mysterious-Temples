@@ -1,0 +1,43 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/Mysterious-Temples/issues"
+
+[[mods]]
+configBackground="mysterioustemples:textures/light_forest_temple_bricks.png"
+
+modId="mysterious_temples"
+
+version="1.0.0"
+
+displayName="Mysterious Temples"
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/mysterious_temples"
+
+logoFile="logo.png"
+
+credits="Thanks for this mod goes to Oslo Albet for making the Fireboy and Watergirl games"
+
+authors=["RedRoseWarrior1 aka DevMaster1015"]
+
+description='''
+Brings Fireboy and Watergirl to Minecraft'''
+
+# Base Forge
+[[dependencies.mysterious_temples]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.mysterious_temples]]
+    modId="minecraft"
+    mandatory=true
+versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"
